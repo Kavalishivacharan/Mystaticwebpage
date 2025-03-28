@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #f8f9fa;
+}
+
+.bookstore-top-section {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvFBNz8hg38nZldYmczxVKV59lf0Z72JxXMQ&s");
+    height: 30vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bookstore-top-section-heading {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.bookstore-bottom-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.book-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.book-card {
+    text-align: center;
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.book-card:hover {
+    transform: scale(1.05);
+}
+
+.book-card-image {
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.book-card-name {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.book-card-price {
+    color: #ff5733;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.view-more-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.view-more-btn:hover {
+    background-color: #0056b3;
+}
